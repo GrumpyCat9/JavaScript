@@ -1,1 +1,2 @@
 # JavaScript
+Basic Js stuff
