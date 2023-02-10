@@ -60,3 +60,41 @@ function circuitPower(voltage, current){
 console.log(circuitPower(230, 10))
 console.log(circuitPower(110, 3))
 console.log(circuitPower(480, 20))
+
+function lessThanOrEqualToZero(num) {
+	if(num > 0){
+        return false
+    }
+    else{
+        return true
+    }
+}
+
+console.log(lessThanOrEqualToZero(5))
+
+function nameString(name){
+	var b = "Edabit"
+	var result = name + b
+  	return result
+}
+
+console.log(nameString("Mubashir"))
+
+function calcAge(age) {
+	return age * 365
+}
+
+console.log(calcAge(20))
+
+function and(a, b) {
+	if(a && b == true){
+        return true
+    }else if(a && b == false){
+        return false
+    }else{
+        return false
+    }
+}
+
+console.log(and(true, false))
+console.log(and(true, true))
